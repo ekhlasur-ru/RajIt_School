@@ -1,7 +1,7 @@
 import React from "react";
 
 function Client() {
-  const EnternalLink = [
+  const ExternalLink = [
     {
       name: "ICT DIVITION",
       link: "https://school.rajit.net/images/0bmBetdnqlLtHQdBh4cNAmJJPjzWL6mLwzIly0rK.png",
@@ -41,21 +41,23 @@ function Client() {
   ];
   return (
     <>
-      <div className="mt-16 p-4">
-        <h2 className="my-4 text-center text-4xl font-bold">
-          আমাদের ক্লায়েন্ট সমূহ
-        </h2>
-        <div className="flex gap-4 bg-slate-200 py-8">
-          {EnternalLink.map((item, index) => (
-            <div key={index} className="gap-4">
-              <img
-                className="rounded-full bg-slate-200"
-                width={100}
-                src={item.link}
-                alt=""
-              />
-            </div>
-          ))}
+      <div className="bg-opacity-10 bg-gradient-to-r from-blue-200 to-cyan-200 backdrop-blur-3xl backdrop:opacity-10">
+        <div className="mt-16 p-4">
+          <h2 className="my-4 text-center text-4xl font-bold">
+            আমাদের ক্লায়েন্ট সমূহ
+          </h2>
+          <div className="flex gap-4 py-8">
+            {ExternalLink.map((item, index) => (
+              <div key={index} className="gap-4">
+                <img
+                  className="rounded-full bg-slate-200"
+                  width={100}
+                  src={item.link}
+                  alt=""
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>
