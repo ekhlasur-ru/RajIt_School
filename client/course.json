@@ -1,0 +1,53 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Basic Computer",
+      "image": "https://school.rajit.net/images/VUMH7RH1ubptpsT2xTHRZoyZxaSmg3doYjltoRtH.jpg",
+      "price": 3000,
+      "batchNumber": 105
+    },
+    {
+      "id": 2,
+      "name": "Digital Marketing",
+      "image": "https://school.rajit.net/images/abjHTzYfXWvKbyC4F1prmpTmDTdtiKxEibEpcrCn.jpg",
+      "price": 8000,
+      "batchNumber": 107
+    },
+    {
+      "id": 3,
+      "name": "Networking",
+      "image": "https://school.rajit.net/images/3OI5Bo4x9EFcsfixLlqabIplr8QiOGCS0P7jNGjB.jpg",
+      "price": 6000,
+      "batchNumber": 102
+    },
+    {
+      "id": 4,
+      "name": "Web & Software",
+      "col-span-2": true,
+      "subCourses": [
+        {
+          "id": 1,
+          "name": "Full Stack Web Development",
+          "image": "https://school.rajit.net/images/gxOI7o6JVQqgYLYvvZvHfq4EgUxkyw8VtIxedikf.jpg",
+          "price": 15000,
+          "batchNumber": 104
+        },
+        {
+          "id": 2,
+          "name": "Mern Stack Web Development",
+          "image": "https://school.rajit.net/images/z1U9YwmOPQu6CHZ5zHkFGXRdSvEHV8TMw96Ur9Io.jpg",
+          "price": 15000,
+          "batchNumber": 102
+        },
+        {
+          "id": 3,
+          "name": "Web Design",
+          "image": "https://school.rajit.net/images/bRrQYGmjKWutPd8IbVHcJ9HKqBITbiBvykIsnpTh.jpg",
+          "price": 8000,
+          "batchNumber": 103
+        }
+      ]
+    }
+  ]
+}
