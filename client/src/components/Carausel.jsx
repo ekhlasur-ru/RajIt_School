@@ -29,7 +29,7 @@ const Carausel = () => {
     resetTimeout();
     timeoutRef.current = setTimeout(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000);
+    }, 5000);
 
     return () => {
       resetTimeout();

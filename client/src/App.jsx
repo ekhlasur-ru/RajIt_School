@@ -9,6 +9,7 @@ import LoginOutlet from "./pages/Login/LoginOutlet";
 import HomeOutlet from "./pages/Home/HomeOutlet";
 import Login from "./pages/Login/Login";
 import Course from "./pages/Course";
+import GMap from "./pages/GMap";
 import OurProgramDetails from "./components/Header/OurProgramDetails";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/course" element={<Course />} />
             <Route path="/join" element={<Join />} />
+            <Route path="/map" element={<GMap />} />
           </Route>
 
           <Route path="/login" element={<LoginOutlet />}>

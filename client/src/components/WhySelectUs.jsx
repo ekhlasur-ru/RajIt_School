@@ -24,7 +24,7 @@ function WhySelectUs() {
             </p>
           </div>
           <div className="item-center border p-4">
-            <LuLeafyGreen  className="mx-auto my-4 text-8xl" />
+            <LuLeafyGreen className="mx-auto my-4 text-8xl" />
             <h3 className="py-4 text-xl font-bold">সার্টিফিকেট এবং ডিগ্রি</h3>
             <p>
               আমাদের প্রতিষ্ঠানের নিজস্ব সার্টিফিকেট প্রদান হয়। এটা আপনি আপনার
@@ -33,7 +33,7 @@ function WhySelectUs() {
             </p>
           </div>
           <div className="item-center col-span-2 border p-4">
-            <SiCodeblocks  className="mx-auto my-4 text-8xl" />
+            <SiCodeblocks className="mx-auto my-4 text-8xl" />
             <h3 className="py-4 text-xl font-bold">
               বিভিন্ন ক্ষেত্রে বিশেষজ্ঞ
             </h3>

@@ -19,6 +19,7 @@ const Header = () => {
     { name: "কোর্স সমূহ", link: "/course" },
     { name: "About", link: "/about" },
     { name: "Join", link: "/join" },
+    { name: "Map", link: "/map" },
   ];
   //DarkMOde
   function useDarkMode() {
@@ -65,7 +66,7 @@ const Header = () => {
         {/* NavLink */}
         <div>
           <ul
-            className={`md:bg-hidden absolute z-[-20] px-8 py-6 transition-all duration-300 ease-in-out dark:bg-gray-800 md:static md:z-auto md:flex md:px-0 md:py-0 ${
+            className={`md:bg-hidden absolute z-[-20] bg-white px-8 py-6 transition-all duration-300 ease-in-out dark:bg-gray-800 md:static md:z-auto md:flex md:px-0 md:py-0 ${
               // open ? "right-[0px]" : "right-[-160px]"
               open ? "right-[0px]" : "top-[-600px]"
               // open ? "top-[30px] " : "top-[-600px]"
